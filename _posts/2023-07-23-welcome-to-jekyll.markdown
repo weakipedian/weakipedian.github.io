@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Thank you for visiting me"
+title:  "Welcome to Weakipedian"
 date:   2023-07-23 15:52:15 +0900
 categories: jekyll update
 ---
