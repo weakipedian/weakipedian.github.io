@@ -58,15 +58,15 @@ menu:
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 legal:
-  - title:             LICENSE
-    url:               /LICENSE/
-  - title:             NOTICE
-    url:               /NOTICE/
-  - title:             CHANGELOG
-    url:               /CHANGELOG/
+  #- title:             LICENSE
+  #  url:               /LICENSE/
+  #- title:             NOTICE
+  #  url:               /NOTICE/
+  #- title:             CHANGELOG
+  #  url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2021. All rights reserved.
+copyright:             © 2023. Jam all rights reserved.
 
 # Format of the permalinks
 permalink:             /:categories/:year-:month-:day-:title/
@@ -402,6 +402,7 @@ jekyll_compose:
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
+        # path: /assets/img/sidebar-bg.jpg
         path: /assets/img/sidebar-bg.jpg
     posts:
       layout: post
