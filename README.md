@@ -1,68 +1,20 @@
-# My address
-weakipedian.github.io
+# Hydejack Starter Kit
 
-# _Airspace_ for Jekyll
-![screenshot](screenshots/home.png "Description goes here")
+A quicker, cleaner way to get started blogging with [Hydejack](https://hydejack.com/).
 
-This Jekyll theme is a port of [ThemeFisher's](https://themefisher.com) [Airspace template](https://themefisher.com/products/airspace-free-bootstrap-website-template/), originally ported by [@ndrewtl](https://github.com/ndrewtl). It is released under ThemeFisher's [license](https://themefisher.com/license) , which requires attribution. Concern about the licnese please contact with [them](mailto:themefisher@gmail.com)
+## Quick Start
+### Running locally
+1. Clone repository (git users), or [download] and unzip.
+2. Open terminal, `cd` into root directory (where `_config.yml` is located)
+3. Run `bundle install` [^1]
+4. Run `bundle exec jekyll serve`
+5. Open <http://localhost:4000/hydejack-starter-kit/>
 
-## Usage
-To start your project, [fork this respository](https://github.com/ndrewtl/airspace-jekyll/fork), put in your content, and go!
+## What's next?
+* Open files and read the comments
+* Read the [docs](https://hydejack.com/docs/)
+* Buy the [PRO version](https://hydejack.com/download/) to get the project and resume layout, newsletter subscription box, custom forms, and more.
 
-## Examples
-Here are some projects that have used this Jekyll Theme:
-* [BOYUAN Open Source 博辕开源](https://boyuanitsm.github.io)
-* [Campus VC](https://mrchildneo.github.io/mrchildneo/)
-* [Mãos de amar](https://www.maosdeamar.com.br/)
-* [ATK Team](http://www.atksec.com/)
-* [Coding Club](https://ourcodingclub.github.io/)
-* [Dev Empathy Book Club](http://www.devempathybook.club/)
-* [DKAN Open Data Catalog](http://getdkan.com) (modified version of this theme)
+[^1]: Requires Bundler. Install with `gem install bundler`.
 
-## Steps for Setup:
-
-### Make sure you have Ruby
-
-First, make sure you have [Ruby](https://www.ruby-lang.org/en/) installed. You can confirm this by running `ruby -v` on the command line:
-
-```sh
-$ ruby -v
-ruby [version number] (date) [your platform]
-```
-
-If you get something like `"Error, command not found"` visit the link above and
-install Ruby for your platform.
-
-
-### Make sure you have Bundler
-
-Next, make sure you have [Bundler](https://bundler.io) installed. Just like
-above, run `bundle -v` on the command line:
-
-```sh
-$ bundle -v
-bundle [version number]
-```
-
-If you get `"Error, command not found"` run `gem install bundler` to install it
-using RubyGems.
-
-### Run this repository
-
-Clone the repository, and `cd` into it:
-```sh
-$ git clone https://github.com/ndrewtl/airspace-jekyll.git
-$ cd airspace-jekyll
-```
-
-Install dependencies locally:
-```sh
-$ bundle install --path vendor/bundle
-```
-
-This should install a local copy of jekyll.
-
-Now run the server:
-```sh
-$ ./vendor/bundle/ruby/#{YOUR_RUBY_VERSION}/bin/jekyll server
-```
+[download]: https://github.com/hydecorp/hydejack-starter-kit/archive/master.zip
