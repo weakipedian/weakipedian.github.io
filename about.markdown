@@ -11,7 +11,7 @@ permalink: /about/
 
 ## 📖 Education 📖
   ⊹ 2020.03 - Integrated Master & Doctoral Course at [Autonomous Systems Lab](https://sites.google.com/site/aslunist/news?authuser=0) <br>
-  ⊹ 2013.03 - 2018.02 / B.Sc. in Aerospace Engineering, Pusan National University, Korea
+  ⊹ 2013.03 - 2019.02 / B.Sc. in Aerospace Engineering, Pusan National University, Korea
 
 ## ⚙️ Research interests ⚙️ 
   ⊹ Information theoretic active perception, Distributed optimization, Vision-Lidar fusion, Gaussian process <br>
