@@ -1,0 +1,6 @@
+---
+layout: post
+title:  "[2022-04 ~ Current] Development of a Wireless Teleoperable Relief Robot for Detecting Searching and Responding in Narrow Space"
+date:   2022-04-01 15:52:15 +0900
+---
+Development of a Wireless Teleoperable Relief Robot for Detecting Searching and Responding in Narrow Space

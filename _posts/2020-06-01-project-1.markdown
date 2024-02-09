@@ -1,0 +1,6 @@
+---
+layout: post
+title:  "[2020-06 ~ Current] Real-time Wide Area Airborne Detection System for Ground Explosives Using Drones"
+date:   2020-06-01 15:52:15 +0900
+---
+Real-time Wide Area Airborne Detection System for Ground Explosives Using Drones
