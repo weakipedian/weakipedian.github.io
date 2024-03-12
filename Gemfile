@@ -8,10 +8,10 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 4.2"
+gem "jekyll", "~> 3.9.5"
 
 gem "jekyll-theme-hydejack", "~> 9.1"
-gem "github-pages"
+gem "github-pages", "~> 230"
 # IMPORTANT: The followign gem is used to compile math formulas to 
 # KaTeX during site building.
 #
@@ -48,7 +48,6 @@ group :jekyll_plugins do
   # Non-Github Pages plugins:
   gem "jekyll-last-modified-at"
   gem "jekyll-compose"
-  gem "jekyll-timeago", "~> 0.13.1"
 end
 
 gem 'wdm' if Gem.win_platform?

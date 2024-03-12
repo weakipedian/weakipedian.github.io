@@ -44,7 +44,7 @@ GEM
     gemoji (4.1.0)
     github-pages (230)
       github-pages-health-check (= 1.18.2)
-      jekyll (= 4.2)
+      jekyll (= 3.9.5)
       jekyll-avatar (= 0.8.0)
       jekyll-coffeescript (= 1.2.2)
       jekyll-commonmark-ghpages (= 0.4.0)
@@ -207,8 +207,6 @@ GEM
     jekyll-theme-time-machine (0.2.0)
       jekyll (> 3.5, < 5.0)
       jekyll-seo-tag (~> 2.0)
-    jekyll-timeago (0.13.1)
-      mini_i18n (>= 0.8.0)
     jekyll-titles-from-headings (0.5.3)
       jekyll (>= 3.3, < 5.0)
     jekyll-watch (2.2.1)
@@ -231,7 +229,7 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.3.6)
-    mini_i18n (0.9.0)
+    mini_portile2 (2.8.5)
     minima (2.5.1)
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
@@ -240,6 +238,9 @@ GEM
     mutex_m (0.2.0)
     net-http (0.4.1)
       uri
+    nokogiri (1.16.2)
+      mini_portile2 (~> 2.8.2)
+      racc (~> 1.4)
     nokogiri (1.16.2-x64-mingw-ucrt)
       racc (~> 1.4)
     nokogiri (1.16.2-x86_64-linux)
@@ -287,13 +288,14 @@ GEM
     webrick (1.8.1)
 
 PLATFORMS
+  ruby
   x64-mingw-ucrt
   x86_64-linux
 
 DEPENDENCIES
   duktape
-  github-pages
-  jekyll (~> 4.2)
+  github-pages (~> 230)
+  jekyll (~> 3.9.5)
   jekyll-compose
   jekyll-default-layout
   jekyll-feed
@@ -307,7 +309,6 @@ DEPENDENCIES
   jekyll-seo-tag
   jekyll-sitemap
   jekyll-theme-hydejack (~> 9.1)
-  jekyll-timeago (~> 0.13.1)
   jekyll-titles-from-headings
   kramdown-math-katex
   tzinfo-data
@@ -315,4 +316,4 @@ DEPENDENCIES
   webrick
 
 BUNDLED WITH
-   2.4.17
+   2.1.4
