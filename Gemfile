@@ -11,7 +11,7 @@ source "https://rubygems.org"
 gem "jekyll", "~> 4.2"
 
 gem "jekyll-theme-hydejack", "~> 9.1"
-
+gem "github-pages"
 # IMPORTANT: The followign gem is used to compile math formulas to 
 # KaTeX during site building.
 #
